@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prata&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+  display: block;
+  width: 100%;
+}
+a.active {
+  color: blue;
+}
+
+* {
+  font-family: Outfit;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
+
+/*! Title Animation */
+
+/* @keyframes color-change {
+  0% {
+    color: #6e8fd3;
+  }
+  50% {
+    color: #c4d137; 
+  }
+  100% {
+    color: #c67333; 
+  }
+}
+
+.animate-color-change {
+  animation: color-change 1.5s ease-in-out infinite;
+} */
